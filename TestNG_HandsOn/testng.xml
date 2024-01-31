@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="TestNG.ListenersExample"></listener>
+</listeners>
+  <test name="Test">
+  
+    <classes>
+      <class name="TestNG.Introduction"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
+
+<!-- <parameter name="Name" value="Meenu"></parameter> -->
+  <!-- groups>
+  <run>
+  <include name="MotoG"></include>
+  <include name="Oppo"></include>
+  </run>
+  </groups> -->
+  <!-- <class name="TestNG.trySuite"/>
+      <class name="TestNG.Dependency_Example"/>
+      <class name="TestNG.Introduction"/> 
+      <class name="TestNG.Grouping_Example"/> -->
+      <!-- <class name="TestNG.Parameterization_HandsOn"/> -->
+      <!-- <class name="TestNG.ParallelTesting"/> -->
